@@ -1,3 +1,3 @@
 class MySet
-  def __init__(self, list = []):
+  def __init__(self, enumerable = []):
     pass
