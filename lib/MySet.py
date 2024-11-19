@@ -6,3 +6,7 @@ class MySet:
 
     def has(self, value):
         return value in self.dictionary
+    
+    def add(self, value)
+        self.dictionary[value] = True # Add a value as a key on the Dictionary
+        return self                   # Return the updated set
