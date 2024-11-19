@@ -10,3 +10,7 @@ class MySet:
     def add(self, value):
         self.dictionary[value] = True # Add a value as a key on the Dictionary
         return self                   # Return the updated set
+    
+    def delete(self, value):
+        self.dictionary.pop(value, None)
+        return self
